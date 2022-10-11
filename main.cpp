@@ -2,13 +2,13 @@
 // Created by 乔奥 on 2022/10/9.
 //
 
-#include "BplusTree.h"
+#include "BPlusTree.h"
 #include <string>
 using namespace std;
-using namespace BplusTree;
+using namespace BPlusTree;
 
 int main() {
-    Virtual_Node<int, string>* node = new Virtual_Node<int, string>();
-    Leaf_Node<int, string>* node2 = new Leaf_Node<int, string>();
-    Non_Leaf_Node<int, string>* node3 = new Non_Leaf_Node<int, string>();
+    Virtual_Node* node = new Virtual_Node();
+    Leaf_Node* node2 = new Leaf_Node();
+    Non_Leaf_Node* node3 = new Non_Leaf_Node();
 };
